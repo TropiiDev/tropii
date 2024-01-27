@@ -302,3 +302,23 @@
     color: #000;
 }
 
+/* footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #333;
+    font-family: 'Single Day', sans-serif;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    letter-spacing: 2px;
+    overflow: hidden;
+    position: relative;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #555;
+}
+
