@@ -93,26 +93,43 @@
             <div class="title">
                 <h1>Contact</h1>
             </div>
-            <p>Want to hire me to do something for you? Complete the form below!</p>
-            <form action="https://send.pageclip.co/2Io28pqWzLJloaa54unOaHcflAwQp4K5/contact-form" class="pageclip-form" method="post">
-              <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
-            
-              <!-- It looks like you are creating a contact form. These email and subject fields are special -->
-              <!-- See https://pageclip.co/docs#special-fields for more info -->
-              <input type="email" name="email" placeholder="roscoe@example.com" />
-              <input type="text" name="subject" placeholder="A contact subject" />
-              <textarea name="body">Email body</textarea>
-            
-              <!-- This button will have a loading spinner. Keep the inner span for best results. -->
-              <button type="submit" class="pageclip-form__submit">
-                <span>Send</span>
-              </button>
-            </form>
+            <div class="contact-form">
+              <p>Want to hire me to do something for you? Complete the form below!</p>
+              <form action="https://send.pageclip.co/2Io28pqWzLJloaa54unOaHcflAwQp4K5/contact-form" class="pageclip-form" method="post">
+                <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+              
+                <!-- It looks like you are creating a contact form. These email and subject fields are special -->
+                <!-- See https://pageclip.co/docs#special-fields for more info -->
+                <div class="mb-3">
+                  <label for="email">Your email address</label>
+                  <input type="email" name="email" placeholder="roscoe@example.com" />
+                </div>
+                <div class="mb-3">
+                  <label for="subject">Subject</label>
+                  <input type="text" name="subject" placeholder="A contact subject" />
+                </div>
+                <div class="mb-3">
+                  <textarea name="message" placeholder="What are your ideas?"></textarea>
+                </div>
+              
+                <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+                <button type="submit" class="pageclip-form__submit dark-loader">
+                  <span>Send</span>
+                </button>
+              </form>
+            </div>
           </div>
 
           <div class="footer">
             <p>© 2024 Tropii's Site</p>
             <p>Created by Tropii</p>
+          </div>
+
+          <div class="mb-3">
+            
+          </div>
+          <div class="mb-3">
+            
           </div>
 
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
