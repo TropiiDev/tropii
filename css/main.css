@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #444444; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+}
+
+/* navbar */
+
+.navbar {
+    font-family: 'Single Day', sans-serif;
+    font-size: 20px;
+}
+
+.navbar a {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: aqua !important;
+}
+
+/* hero */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    font-family: 'Single Day', sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #555;
+}
+
+.hero img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero .title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+
+.hero .title:hover {
+    color: aqua;
+}
+
+.hero .subtitle {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.hero .subtitle:hover {
+    color: aqua;
+}
+
+/* about */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    font-family: 'Single Day', sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #555;
+}
+
+.about .title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.about .title:hover {
+    color: aqua;
+}
+
+.about .subtext {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.about .subtext:hover {
+    color: aqua;
+}
+
+/* projects */
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    font-family: 'Single Day', sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #555;
+}
+
+.projects .title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.projects .title:hover {
+    color: aqua;
+}
+
+.projects .subtext {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.projects .subtext:hover {
+    color: aqua;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin-right: 20px;
+}
+
+/* languages */
+
+.languages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    font-family: 'Single Day', sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #555;
+}
+
+.languages .title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.languages .title:hover {
+    color: aqua;
+}
+
+.languages .subtext {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.languages .subtext:hover {
+    color: aqua;
+}
+
+/* contact */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    font-family: 'Single Day', sans-serif;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    overflow: hidden;
+    position: relative;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #555;
+}
+
+.contact .title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.contact .title:hover {
+    color: aqua;
+}
+
+.contact .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .contact-form input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.contact .contact-form textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.contact .contact-form button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.contact .contact-form button:hover {
+    background-color: aqua;
+    color: #000;
+}
+
